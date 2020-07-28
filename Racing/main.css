@@ -1,0 +1,120 @@
+@font-face{
+    font-family: 'SuperLegendBoy';
+    src: url(../Racing/SuperLegendBoy-4w8Y.ttf);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    background-color:rgb(20, 8, 75);
+}
+
+.header{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 1000px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'SuperLegendBoy';
+    color: #ffffff;
+    line-height: 100px;
+    font-size: 35px;
+    text-align: center;
+}
+
+.raceArea{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    height: 600px;
+    border-radius: 20px;
+    background-color: rgb(26, 102, 16);
+}
+
+#finalArea{
+    position: absolute;
+    top: 0;
+    left: 98%;
+    margin: 0;
+    padding: 0;
+    width: 10px;
+    height: 600px;
+    border-radius: 30px;
+    background-color: rgb(190, 41, 41);
+}
+
+.raceArea img {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: 133px;
+    transition: all 2s;
+}
+
+.buttons{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+#basla{
+    width: 200px;
+    height: 60px;
+    border-radius: 40px;
+    background-color: rgb(0, 90, 0);
+    color: #ffffff; 
+    font-size: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all ease 200ms;
+}
+
+#basla:hover{
+    background-color: rgb(0, 180, 0);
+}
+
+#reset{
+    width: 200px;
+    height: 60px;
+    border-radius: 40px;
+    background-color: rgb(170, 5, 5);
+    color: #ffffff; 
+    font-size: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all ease 200ms;
+}
+
+#reset:hover{
+    background-color: rgb(230, 3, 3);
+}
+
+.end{
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    width: 900px;
+    color: #ccc;
+    border-top: 1px solid #ccc;
+}
